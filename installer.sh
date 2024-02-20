@@ -78,7 +78,7 @@ ask_settings_pw "Gebe das Passwort des Nextcloud-Administrators an:" NextcloudAd
 echo -e "\n"
 echo -e "\n"
 echo -e "${RED}WARNUNG${NC}"
-echo -e "Das Script wurde nur unter Ubuntu 22.04 und Debian 11 getestet!"
+echo -e "${RED}Das Script wurde nur unter Ubuntu 22.04 und Debian 11 getestet!${NC}"
 echo -e "${RED}Das System muss neu Aufgesetzt sein, damit alles reibungslos funktioniert!${NC}"
 echo -e ""
 if confirm "Möchtest Du mit der Installation fortfahren?"; then
