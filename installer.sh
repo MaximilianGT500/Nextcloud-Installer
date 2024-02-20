@@ -246,7 +246,7 @@ if confirm "Möchtest Du mit der Installation fortfahren?"; then
             
             ask_settings "Gebe den Host des Datenbankservers an (localhost):" DatabaseHost
             ask_settings "Gebe den Namen der Nextcloud-Datenbank an (nextcloud):" DatabaseName
-            ask_settings "Gebe den Benutzernamen für die Nextcloud-Datenbank an(nextcloud):" DatabaseUser
+            ask_settings "Gebe den Benutzernamen für die Nextcloud-Datenbank an (nextcloud):" DatabaseUser
             ask_settings_pw "Gebe das Passwort für die Nextcloud-Datenbank an (nextcloud):" DatabasePassword
 
             echo -e "\n"
